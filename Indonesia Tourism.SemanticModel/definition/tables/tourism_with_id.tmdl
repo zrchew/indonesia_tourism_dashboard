@@ -1,0 +1,234 @@
+table tourism_with_id
+	lineageTag: e151bfc8-7151-4651-8679-8ce129f5b21a
+
+	measure 'Total Attractions' = DISTINCTCOUNT(tourism_with_id[Place_Id])
+		formatString: 0
+		lineageTag: 7e06d2d5-a853-4d00-a36b-84c8a00dcf03
+
+	measure 'Average Prize' = "Rp " & FORMAT(AVERAGE(tourism_with_id[Price]), "#,##0")
+		lineageTag: 1a7bd59f-061a-4443-82e9-232c712580b7
+
+	measure 'Average Rating' = AVERAGE(tourism_with_id[Rating])
+		lineageTag: e1fc67e6-d68d-4e1c-a671-43c1c7507f5f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Cities' = DISTINCTCOUNT(tourism_with_id[City])
+		formatString: 0
+		lineageTag: 9ede3e36-cd53-4133-858a-47178bca4cc0
+
+	measure 'Selected City' = SELECTEDVALUE(tourism_with_id[City], "Select a City")
+		lineageTag: 4b660e09-46ef-46c5-aafa-819848449a86
+
+	measure 'Rating Rank' =
+			
+			VAR RankTable =
+			    ADDCOLUMNS(
+			        ALLSELECTED(tourism_with_id[Place_Id]),
+			        "@Score",
+			        CALCULATE(MAX(tourism_with_id[Rating])) * 1000000 - CALCULATE(MAX(tourism_with_id[Price]))
+			    )
+			VAR CurrentScore =
+			    MAX(tourism_with_id[Rating]) * 1000000 - MAX(tourism_with_id[Price])
+			RETURN
+			    RANKX(RankTable, [@Score], CurrentScore, DESC, DENSE)
+		formatString: 0
+		lineageTag: 72aa4023-b819-4de6-8410-2d1b15b7ab04
+
+	column Place_Id
+		dataType: int64
+		formatString: 0
+		lineageTag: a118db88-78c6-4cf8-ba39-8196cf650c77
+		summarizeBy: none
+		sourceColumn: Place_Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column Place_Name
+		dataType: string
+		lineageTag: 4869ecf3-7adf-4069-8834-92ac330e24d2
+		summarizeBy: none
+		sourceColumn: Place_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Description
+		dataType: string
+		lineageTag: 319dd33b-165c-414c-8cb8-bcf04dcdf553
+		summarizeBy: none
+		sourceColumn: Description
+
+		annotation SummarizationSetBy = Automatic
+
+	column Category
+		dataType: string
+		lineageTag: 42d3ac01-8b95-4772-9506-9772c6f645ae
+		summarizeBy: none
+		sourceColumn: Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: 93db47c3-c308-4350-9117-49190ae9e4fc
+		summarizeBy: none
+		sourceColumn: City
+
+		annotation SummarizationSetBy = Automatic
+
+	column Price
+		dataType: int64
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: a3fa9982-b2a2-47e1-b901-c2886b8d71cd
+		summarizeBy: none
+		sourceColumn: Price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column Rating
+		dataType: double
+		lineageTag: 71517cd2-4c33-4f8a-9f42-9bcdb891031c
+		summarizeBy: none
+		sourceColumn: Rating
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Time_Minutes
+		dataType: int64
+		formatString: 0
+		lineageTag: 205a8a6b-cedf-4789-9489-55fbaa3f74c9
+		summarizeBy: none
+		sourceColumn: Time_Minutes
+
+		annotation SummarizationSetBy = Automatic
+
+	column Coordinate
+		dataType: string
+		lineageTag: d87a8502-193c-42c2-93f3-18bbd2999506
+		summarizeBy: none
+		sourceColumn: Coordinate
+
+		annotation SummarizationSetBy = Automatic
+
+	column Lat
+		dataType: double
+		lineageTag: fd49d775-13c9-4c19-9f57-998835fdac66
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: Lat
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Long
+		dataType: double
+		lineageTag: fbf2d57e-6095-4f8d-894c-6566ed9e1e61
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: Long
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Category Eng'
+		dataType: string
+		lineageTag: 3b5b859b-1ba6-4910-88f6-104f05f25e06
+		summarizeBy: none
+		sourceColumn: Category Eng
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Price Tier' =
+			SWITCH(
+			    TRUE(),
+			    tourism_with_id[Price] = 0, "Free",
+			    tourism_with_id[Price] <= 20000, "Budget (≤20K)",
+			    tourism_with_id[Price] <= 50000, "Mid-range (20K–50K)",
+			    tourism_with_id[Price] <= 150000, "Premium (50K–150K)",
+			    "Luxury (150K+)"
+			)
+		lineageTag: 92a6ea6b-6f1a-4ab3-84bd-e753415e64b9
+		summarizeBy: none
+		sortByColumn: 'Price Tier Sort'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Price Tier Sort' =
+			SWITCH(
+			    TRUE(),
+			    tourism_with_id[Price] = 0, 1,
+			    tourism_with_id[Price] <= 20000, 2,
+			    tourism_with_id[Price] <= 50000, 3,
+			    tourism_with_id[Price] <= 150000, 4,
+			    5
+			)
+		formatString: 0
+		lineageTag: 5065e169-b652-470a-a977-775be45c38b8
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Place_Name_English
+		dataType: string
+		lineageTag: f6aa4fdc-90d2-4476-93b2-6f41d21e9871
+		summarizeBy: none
+		sourceColumn: Place_Name_English
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Display Rank' =
+			
+			VAR ThisCity = tourism_with_id[City]
+			VAR ThisRating = tourism_with_id[Rating]
+			RETURN
+			    RANKX(
+			        FILTER(tourism_with_id, tourism_with_id[City] = ThisCity),
+			        tourism_with_id[Rating],
+			        ThisRating,
+			        DESC,
+			        DENSE
+			    )
+		formatString: 0
+		lineageTag: 32906650-0bc8-475e-b9f9-523eecfc6d7f
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tourism_with_id = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\103920zhch\OneDrive - BW Offshore\Desktop\PowerBI Stuff\Indonesia Tourism Dataset\tourism_with_id.csv"),[Delimiter=",", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Place_Id", Int64.Type}, {"Place_Name", type text}, {"Description", type text}, {"Category", type text}, {"City", type text}, {"Price", Int64.Type}, {"Rating", type number}, {"Time_Minutes", Int64.Type}, {"Coordinate", type text}, {"Lat", type number}, {"Long", type number}, {"", type text}, {"_1", Int64.Type}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"", "_1"}),
+				    #"Duplicated Column" = Table.DuplicateColumn(#"Removed Columns", "Category", "Category - Copy"),
+				    #"Renamed Columns" = Table.RenameColumns(#"Duplicated Column",{{"Category - Copy", "Category Eng"}}),
+				    #"Reordered Columns" = Table.ReorderColumns(#"Renamed Columns",{"Place_Id", "Place_Name", "Description", "Category", "Category Eng", "City", "Price", "Rating", "Time_Minutes", "Coordinate", "Lat", "Long"}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Reordered Columns","Budaya","Cultural ",Replacer.ReplaceText,{"Category Eng"}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value","Taman Hiburan","Entertainment",Replacer.ReplaceText,{"Category Eng"}),
+				    #"Replaced Value2" = Table.ReplaceValue(#"Replaced Value1","Tempat Ibadah","Worship",Replacer.ReplaceText,{"Category Eng"}),
+				    #"Replaced Value3" = Table.ReplaceValue(#"Replaced Value2","Cagar Alam","Nature Reserve",Replacer.ReplaceText,{"Category Eng"}),
+				    #"Replaced Value4" = Table.ReplaceValue(#"Replaced Value3","Pusat Perbelanjaan","Shopping Center",Replacer.ReplaceText,{"Category Eng"}),
+				    #"Replaced Value5" = Table.ReplaceValue(#"Replaced Value4","Bahari","Marine",Replacer.ReplaceText,{"Category Eng"}),
+				    #"Merged Queries" = Table.NestedJoin(#"Replaced Value5", {"Place_Name"}, place_translations, {"Place_Name"}, "place_translations", JoinKind.LeftOuter),
+				    #"Reordered Columns1" = Table.ReorderColumns(#"Merged Queries",{"Place_Id", "Place_Name", "place_translations", "Description", "Category", "Category Eng", "City", "Price", "Rating", "Time_Minutes", "Coordinate", "Lat", "Long"}),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Reordered Columns1",{{"place_translations", "Place_Name_English"}}),
+				    #"Expanded Place_Name_English" = Table.ExpandTableColumn(#"Renamed Columns1", "Place_Name_English", {"Place_Name", "English_Name"}, {"Place_Name_English.Place_Name", "Place_Name_English.English_Name"}),
+				    #"Removed Columns1" = Table.RemoveColumns(#"Expanded Place_Name_English",{"Place_Name_English.Place_Name"}),
+				    #"Renamed Columns2" = Table.RenameColumns(#"Removed Columns1",{{"Place_Name_English.English_Name", "Place_Name_English"}})
+				in
+				    #"Renamed Columns2"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

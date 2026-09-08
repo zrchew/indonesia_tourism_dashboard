@@ -1,0 +1,41 @@
+table user
+	lineageTag: 768df65f-3f06-4670-b109-6e746a514d40
+
+	column User_Id
+		dataType: int64
+		formatString: 0
+		lineageTag: 1bf26b10-b5de-412d-a0e6-de3b0e5b53e9
+		summarizeBy: none
+		sourceColumn: User_Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column Location
+		dataType: string
+		lineageTag: 83f03b9d-d6af-4009-ab4d-5bf20d2a31f5
+		summarizeBy: none
+		sourceColumn: Location
+
+		annotation SummarizationSetBy = Automatic
+
+	column Age
+		dataType: int64
+		formatString: 0
+		lineageTag: aa41fb32-5a49-4b21-b5b3-c283e979913a
+		summarizeBy: none
+		sourceColumn: Age
+
+		annotation SummarizationSetBy = Automatic
+
+	partition user = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\103920zhch\OneDrive - BW Offshore\Desktop\PowerBI Stuff\Indonesia Tourism Dataset\user.csv"),[Delimiter=",", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"User_Id", Int64.Type}, {"Location", type text}, {"Age", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

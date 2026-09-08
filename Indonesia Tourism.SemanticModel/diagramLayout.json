@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 64.8293247729891,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 26
+          },
+          "nodeIndex": "package_tourism",
+          "nodeLineageTag": "74286ff1-b95f-4552-a617-cbdf055365dd",
+          "size": {
+            "height": 376.24931639873932,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 231.85467355216093,
+            "y": 496.799944171668
+          },
+          "nodeIndex": "tourism_rating",
+          "nodeLineageTag": "82a50e1e-f421-49d6-be71-fbb879b0dfbe",
+          "size": {
+            "height": 326.75731025762281,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 638.46665736194473,
+            "y": 0
+          },
+          "nodeIndex": "tourism_with_id",
+          "nodeLineageTag": "e151bfc8-7151-4651-8679-8ce129f5b21a",
+          "size": {
+            "height": 460.66397878523389,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1014.0733119324727,
+            "y": 88.09333147238894
+          },
+          "nodeIndex": "user",
+          "nodeLineageTag": "768df65f-3f06-4670-b109-6e746a514d40",
+          "size": {
+            "height": 291.52398157665044,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 1298.0733119324727,
+            "y": 335.77862721464544
+          },
+          "nodeIndex": "place_translations",
+          "nodeLineageTag": "737057ae-7f69-4ae3-9519-f2e7bf965ebf",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 70.95554390096892,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

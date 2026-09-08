@@ -1,0 +1,119 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "eecc1b381a002ba09b86",
+  "position": {
+    "x": 275.48556430446195,
+    "y": 0,
+    "z": 2000,
+    "height": 720.0699912510936,
+    "width": 1004.5144356955381,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "package_tourism"
+                        }
+                      },
+                      "Property": "Place_Tourism1"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(package_tourism.Place_Tourism1)",
+              "nativeQueryRef": "Place_Tourism1"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "package_tourism"
+                        }
+                      },
+                      "Property": "Place_Tourism2"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(package_tourism.Place_Tourism2)",
+              "nativeQueryRef": "Place_Tourism2"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "package_tourism"
+                        }
+                      },
+                      "Property": "Place_Tourism3"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(package_tourism.Place_Tourism3)",
+              "nativeQueryRef": "Place_Tourism3"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "package_tourism"
+                        }
+                      },
+                      "Property": "Place_Tourism4"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(package_tourism.Place_Tourism4)",
+              "nativeQueryRef": "Place_Tourism4"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "package_tourism"
+                        }
+                      },
+                      "Property": "Place_Tourism5"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(package_tourism.Place_Tourism5)",
+              "nativeQueryRef": "Place_Tourism5"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

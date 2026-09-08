@@ -1,0 +1,5818 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "package_tourism": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "package_tourism"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "package tourism": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "package_tourism": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tourism": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "package travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "package sight-seeing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "package sightseeing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "sight-seeing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "sightseeing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "package_tourism.package": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "package_tourism",
+			          "ConceptualProperty": "Package"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "package": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "suite": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "compendium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "platform": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "set": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bundle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "raft": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "file": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "array": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "container": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "envelope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "package_tourism.city": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "package_tourism",
+			          "ConceptualProperty": "City"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "city": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "package_tourism.place_tourism_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "package_tourism",
+			          "ConceptualProperty": "Place_Tourism1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place tourism 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Place_Tourism1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tourism 1": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "package_tourism.place_tourism_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "package_tourism",
+			          "ConceptualProperty": "Place_Tourism2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place tourism 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Place_Tourism2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tourism 2": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "package_tourism.place_tourism_3": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "package_tourism",
+			          "ConceptualProperty": "Place_Tourism3"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place tourism 3": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Place_Tourism3": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tourism 3": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "package_tourism.place_tourism_4": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "package_tourism",
+			          "ConceptualProperty": "Place_Tourism4"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place tourism 4": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Place_Tourism4": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tourism 4": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "package_tourism.place_tourism_5": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "package_tourism",
+			          "ConceptualProperty": "Place_Tourism5"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place tourism 5": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Place_Tourism5": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tourism 5": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tourism rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tourism_rating": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tourism assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tourism evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tourism score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "tourism grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "tourism ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "tourism mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "tourism sailor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "tourism seaman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "tourism hand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_rating.user_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_rating",
+			          "ConceptualProperty": "User_Id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "user id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "User_Id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "user identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_rating.place_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_rating",
+			          "ConceptualProperty": "Place_Id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "place id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Place_Id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "place": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "place identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "residence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "apartment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "habitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dwelling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_rating.place_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_rating",
+			          "ConceptualProperty": "Place_Ratings"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Place_Ratings": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "place assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "place evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "place score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "place grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "place ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "place mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "place sailor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "place seaman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "place hand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_rating.entity__unique_visitors": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_rating",
+			          "ConceptualProperty": "_Unique Visitors"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_unique visitors": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_unique friend": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "_unique invitee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "_unique person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "_unique company": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "_unique guest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "_unique companion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "_unique caller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "_unique tourist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "_unique sightseer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tourism with id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tourism_with_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tourism": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "tourism with identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "tourism with identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "tourism with identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "tourism with credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "travel with id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sight-seeing with id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "sightseeing with id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "sight-seeing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "sightseeing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.place_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Place_Id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Place_Id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "place": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "place identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "residence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "apartment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "habitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dwelling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.place_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Place_Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Place_Name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "place": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "place nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "residence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "apartment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "habitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dwelling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.description": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Description"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "description": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "overview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "report": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.city": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "City"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "city": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "penalty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sailor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "seaman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "hand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.time_minute": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Time_Minutes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "time minute": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Time_Minutes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "minute": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "duration minute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "interval minute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "moment minute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period minute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "timetable minute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "miniature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "infinitesimal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "little": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "small": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "diminutive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.coordinate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Coordinate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coordinate": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.lat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Lat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lat": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.long": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Long"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "long": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "time-consuming": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "lingering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "user": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "user"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "operator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manipulator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "user.user_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "user",
+			          "ConceptualProperty": "User_Id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "User_Id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "user identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "user.location": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "user",
+			          "ConceptualProperty": "Location"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "location": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "placement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "scene": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "venue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "setting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "spot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "user.age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "user",
+			          "ConceptualProperty": "Age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.total_attractions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Total Attractions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total attractions": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "attractions": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate attraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall attraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total magnetism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total fascination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total temptation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total enticement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "magnetism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fascination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "temptation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "enticement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.average_prize": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Average Prize"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average prize": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prize": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average flagship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average star": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average lead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average top": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average leading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "flagship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "star": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "lead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "leading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "average trophy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.average_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Average Rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average sailor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "average seaman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "average hand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.total_cities": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Total Cities"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total cities": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cities": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate city": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall city": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total conurbation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total capitals": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "conurbation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "capitals": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.category_eng": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Category Eng"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "category eng": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "classification eng": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "class eng": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "group eng": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "type eng": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "grouping eng": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "kind eng": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Category": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.price_tier": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Price Tier"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "price tier": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tier": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "price row": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "price level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "price layer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "price stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "price rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "price step": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "price story": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "row": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "layer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.price_tier_sort": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Price Tier Sort"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "price tier sort": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tier sort": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "price tier category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "price tier genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "price tier species": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "price tier variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "price tier nature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "tier category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tier genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tier species": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tier variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tier nature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.selected_city": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Selected City"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "selected city": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "selected location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "selected metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "selected municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "selected town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "selected metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.place_name_english": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Place_Name_English"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place name english": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Place_Name_English": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "english": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "name english": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "place nickname english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "place title english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "place label english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "place tag english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "nickname english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "title english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "label english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "tag english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.rating_rank": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Rating Rank"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rating rank": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "place_translation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "place_translations"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place translation": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "place_translations": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "translation": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "place conversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "place version": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "place transformation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "place rendition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "place interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "conversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "version": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "transformation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "rendition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "place_translation.place_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "place_translations",
+			          "ConceptualProperty": "Place_Id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Place_Id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "place": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "place identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "residence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "apartment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "habitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dwelling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "place_translation.place_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "place_translations",
+			          "ConceptualProperty": "Place_Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Place_Name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "place": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "place nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "residence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "apartment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "habitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dwelling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "place_translation.english_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "place_translations",
+			          "ConceptualProperty": "English_Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "english name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "English_Name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "english": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "english nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "english title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "english label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "english tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.display_rank": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Display Rank"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "display rank": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Rank": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "place_translation_has_english_name": {
+			      "Binding": {
+			        "ConceptualEntity": "place_translations"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "place_translation": {
+			          "Target": {
+			            "Entity": "place_translation"
+			          }
+			        },
+			        "place_translation.english_name": {
+			          "Target": {
+			            "Entity": "place_translation.english_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "place_translation"
+			            },
+			            "Object": {
+			              "Role": "place_translation.english_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "place_translations_have_english_names"
+			        }
+			      ]
+			    },
+			    "place_translation_has_place_name": {
+			      "Binding": {
+			        "ConceptualEntity": "place_translations"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "place_translation": {
+			          "Target": {
+			            "Entity": "place_translation"
+			          }
+			        },
+			        "place_translation.place_name": {
+			          "Target": {
+			            "Entity": "place_translation.place_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "place_translation"
+			            },
+			            "Object": {
+			              "Role": "place_translation.place_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "place_translations_have_place_names"
+			        }
+			      ]
+			    },
+			    "place_translation_has_place_id": {
+			      "Binding": {
+			        "ConceptualEntity": "place_translations"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "place_translation": {
+			          "Target": {
+			            "Entity": "place_translation"
+			          }
+			        },
+			        "place_translation.place_id": {
+			          "Target": {
+			            "Entity": "place_translation.place_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "place_translation"
+			            },
+			            "Object": {
+			              "Role": "place_translation.place_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "place_translations_have_place_ids"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_rating_rank": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.rating_rank": {
+			          "Target": {
+			            "Entity": "tourism_with_id.rating_rank"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.rating_rank"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_rating_rank"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_place_name_english": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.place_name_english": {
+			          "Target": {
+			            "Entity": "tourism_with_id.place_name_english"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.place_name_english"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_place_name_englishes"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_selected_city": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.selected_city": {
+			          "Target": {
+			            "Entity": "tourism_with_id.selected_city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.selected_city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_selected_city"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_price_tier_sort": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.price_tier_sort": {
+			          "Target": {
+			            "Entity": "tourism_with_id.price_tier_sort"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.price_tier_sort"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_price_tier_sorts"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_price_tier": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.price_tier": {
+			          "Target": {
+			            "Entity": "tourism_with_id.price_tier"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.price_tier"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_price_tiers"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_category_eng": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.category_eng": {
+			          "Target": {
+			            "Entity": "tourism_with_id.category_eng"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.category_eng"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_category_engs"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_total_cities": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.total_cities": {
+			          "Target": {
+			            "Entity": "tourism_with_id.total_cities"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.total_cities"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_total_cities"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_average_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.average_rating": {
+			          "Target": {
+			            "Entity": "tourism_with_id.average_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.average_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_average_rating"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_average_prize": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.average_prize": {
+			          "Target": {
+			            "Entity": "tourism_with_id.average_prize"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.average_prize"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_average_prize"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_total_attractions": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.total_attractions": {
+			          "Target": {
+			            "Entity": "tourism_with_id.total_attractions"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.total_attractions"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_total_attractions"
+			        }
+			      ]
+			    },
+			    "user_has_age": {
+			      "Binding": {
+			        "ConceptualEntity": "user"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "user": {
+			          "Target": {
+			            "Entity": "user"
+			          }
+			        },
+			        "user.age": {
+			          "Target": {
+			            "Entity": "user.age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "user"
+			            },
+			            "Object": {
+			              "Role": "user.age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "users_have_ages"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "user"
+			            },
+			            "Adjectives": [
+			              {
+			                "old": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "young": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "user.age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "age_indicates_how_old_users_are"
+			        }
+			      ]
+			    },
+			    "user_has_location": {
+			      "Binding": {
+			        "ConceptualEntity": "user"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "user": {
+			          "Target": {
+			            "Entity": "user"
+			          }
+			        },
+			        "user.location": {
+			          "Target": {
+			            "Entity": "user.location"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "user"
+			            },
+			            "Object": {
+			              "Role": "user.location"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "users_have_locations"
+			        }
+			      ]
+			    },
+			    "user_has_user_id": {
+			      "Binding": {
+			        "ConceptualEntity": "user"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "user": {
+			          "Target": {
+			            "Entity": "user"
+			          }
+			        },
+			        "user.user_id": {
+			          "Target": {
+			            "Entity": "user.user_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "user"
+			            },
+			            "Object": {
+			              "Role": "user.user_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "users_have_user_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "user"
+			            },
+			            "Name": {
+			              "Role": "user.user_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "user_ids_are_names_IDs_of_users"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_long": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.long": {
+			          "Target": {
+			            "Entity": "tourism_with_id.long"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.long"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_longs"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_lat": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.lat": {
+			          "Target": {
+			            "Entity": "tourism_with_id.lat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.lat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_lats"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_coordinate": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.coordinate": {
+			          "Target": {
+			            "Entity": "tourism_with_id.coordinate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.coordinate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_coordinates"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_time_minute": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.time_minute": {
+			          "Target": {
+			            "Entity": "tourism_with_id.time_minute"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.time_minute"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_time_minutes"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.rating": {
+			          "Target": {
+			            "Entity": "tourism_with_id.rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_rating"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_price": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.price": {
+			          "Target": {
+			            "Entity": "tourism_with_id.price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_prices"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "tourism_with_id.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "price_indicates_how_expensive_tourism_with_id_are"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_city": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.city": {
+			          "Target": {
+			            "Entity": "tourism_with_id.city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_cities"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_category": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.category": {
+			          "Target": {
+			            "Entity": "tourism_with_id.category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_categories"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_description": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.description": {
+			          "Target": {
+			            "Entity": "tourism_with_id.description"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.description"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_descriptions"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_place_name": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.place_name": {
+			          "Target": {
+			            "Entity": "tourism_with_id.place_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.place_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_place_names"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_place_id": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.place_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id.place_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.place_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_place_ids"
+			        }
+			      ]
+			    },
+			    "tourism_rating_has_entity__unique_visitors": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_rating"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_rating": {
+			          "Target": {
+			            "Entity": "tourism_rating"
+			          }
+			        },
+			        "tourism_rating.entity__unique_visitors": {
+			          "Target": {
+			            "Entity": "tourism_rating.entity__unique_visitors"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_rating"
+			            },
+			            "Object": {
+			              "Role": "tourism_rating.entity__unique_visitors"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_rating_have__unique_visitors"
+			        }
+			      ]
+			    },
+			    "tourism_rating_has_place_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_rating"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_rating": {
+			          "Target": {
+			            "Entity": "tourism_rating"
+			          }
+			        },
+			        "tourism_rating.place_rating": {
+			          "Target": {
+			            "Entity": "tourism_rating.place_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_rating"
+			            },
+			            "Object": {
+			              "Role": "tourism_rating.place_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_rating_have_place_rating"
+			        }
+			      ]
+			    },
+			    "package_tourism_has_place_tourism_5": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.place_tourism_5": {
+			          "Target": {
+			            "Entity": "package_tourism.place_tourism_5"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Object": {
+			              "Role": "package_tourism.place_tourism_5"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_have_place_tourism_5"
+			        }
+			      ]
+			    },
+			    "package_tourism_has_place_tourism_4": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.place_tourism_4": {
+			          "Target": {
+			            "Entity": "package_tourism.place_tourism_4"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Object": {
+			              "Role": "package_tourism.place_tourism_4"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_have_place_tourism_4"
+			        }
+			      ]
+			    },
+			    "package_tourism_has_place_tourism_3": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.place_tourism_3": {
+			          "Target": {
+			            "Entity": "package_tourism.place_tourism_3"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Object": {
+			              "Role": "package_tourism.place_tourism_3"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_have_place_tourism_3"
+			        }
+			      ]
+			    },
+			    "package_tourism_has_place_tourism_2": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.place_tourism_2": {
+			          "Target": {
+			            "Entity": "package_tourism.place_tourism_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Object": {
+			              "Role": "package_tourism.place_tourism_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_have_place_tourism_2"
+			        }
+			      ]
+			    },
+			    "package_tourism_has_place_tourism_1": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.place_tourism_1": {
+			          "Target": {
+			            "Entity": "package_tourism.place_tourism_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Object": {
+			              "Role": "package_tourism.place_tourism_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_have_place_tourism_1"
+			        }
+			      ]
+			    },
+			    "package_tourism_has_city": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.city": {
+			          "Target": {
+			            "Entity": "package_tourism.city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Object": {
+			              "Role": "package_tourism.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_have_cities"
+			        }
+			      ]
+			    },
+			    "package_tourism_has_package": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.package": {
+			          "Target": {
+			            "Entity": "package_tourism.package"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Object": {
+			              "Role": "package_tourism.package"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_have_packages"
+			        }
+			      ]
+			    },
+			    "place_translation_in_place_name": {
+			      "Binding": {
+			        "ConceptualEntity": "place_translations"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "place_translation": {
+			          "Target": {
+			            "Entity": "place_translation"
+			          }
+			        },
+			        "place_translation.place_name": {
+			          "Target": {
+			            "Entity": "place_translation.place_name"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "place_translation.place_name"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "place_translation"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "place_translation.place_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "place_translations_are_in_place_names"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_in_place_name_english": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.place_name_english": {
+			          "Target": {
+			            "Entity": "tourism_with_id.place_name_english"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "tourism_with_id.place_name_english"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "tourism_with_id.place_name_english"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_are_in_place_name_englishes"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_in_selected_city": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.selected_city": {
+			          "Target": {
+			            "Entity": "tourism_with_id.selected_city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "tourism_with_id.selected_city"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "tourism_with_id.selected_city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_are_in_selected_city"
+			        }
+			      ]
+			    },
+			    "user_in_location": {
+			      "Binding": {
+			        "ConceptualEntity": "user"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "user": {
+			          "Target": {
+			            "Entity": "user"
+			          }
+			        },
+			        "user.location": {
+			          "Target": {
+			            "Entity": "user.location"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "user.location"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "user"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "user.location"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "users_are_in_locations"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_in_city": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.city": {
+			          "Target": {
+			            "Entity": "tourism_with_id.city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "tourism_with_id.city"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "tourism_with_id.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_are_in_cities"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_in_place_name": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.place_name": {
+			          "Target": {
+			            "Entity": "tourism_with_id.place_name"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "tourism_with_id.place_name"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "tourism_with_id.place_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_are_in_place_names"
+			        }
+			      ]
+			    },
+			    "package_tourism_in_place_tourism_5": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.place_tourism_5": {
+			          "Target": {
+			            "Entity": "package_tourism.place_tourism_5"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "package_tourism.place_tourism_5"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "package_tourism.place_tourism_5"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_are_in_place_tourism_5"
+			        }
+			      ]
+			    },
+			    "package_tourism_in_place_tourism_4": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.place_tourism_4": {
+			          "Target": {
+			            "Entity": "package_tourism.place_tourism_4"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "package_tourism.place_tourism_4"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "package_tourism.place_tourism_4"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_are_in_place_tourism_4"
+			        }
+			      ]
+			    },
+			    "package_tourism_in_place_tourism_3": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.place_tourism_3": {
+			          "Target": {
+			            "Entity": "package_tourism.place_tourism_3"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "package_tourism.place_tourism_3"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "package_tourism.place_tourism_3"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_are_in_place_tourism_3"
+			        }
+			      ]
+			    },
+			    "package_tourism_in_place_tourism_2": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.place_tourism_2": {
+			          "Target": {
+			            "Entity": "package_tourism.place_tourism_2"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "package_tourism.place_tourism_2"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "package_tourism.place_tourism_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_are_in_place_tourism_2"
+			        }
+			      ]
+			    },
+			    "package_tourism_in_place_tourism_1": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.place_tourism_1": {
+			          "Target": {
+			            "Entity": "package_tourism.place_tourism_1"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "package_tourism.place_tourism_1"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "package_tourism.place_tourism_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_are_in_place_tourism_1"
+			        }
+			      ]
+			    },
+			    "package_tourism_in_city": {
+			      "Binding": {
+			        "ConceptualEntity": "package_tourism"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "package_tourism": {
+			          "Target": {
+			            "Entity": "package_tourism"
+			          }
+			        },
+			        "package_tourism.city": {
+			          "Target": {
+			            "Entity": "package_tourism.city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "package_tourism.city"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "package_tourism"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "package_tourism.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "package_tourisms_are_in_cities"
+			        }
+			      ]
+			    },
+			    "user_use_tourism_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_rating"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "user": {
+			          "Target": {
+			            "Entity": "user"
+			          }
+			        },
+			        "tourism_rating": {
+			          "Target": {
+			            "Entity": "tourism_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "user"
+			            },
+			            "Verbs": [
+			              {
+			                "use": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "tourism_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "users_use_tourism_rating"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_rating"
+			            },
+			            "Object": {
+			              "Role": "user"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_rating_have_users"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "user"
+			            },
+			            "Object": {
+			              "Role": "tourism_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "users_have_tourism_rating"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_display_rank": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.display_rank": {
+			          "Target": {
+			            "Entity": "tourism_with_id.display_rank"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.display_rank"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_display_ranks"
+			        }
+			      ]
+			    },
+			    "tourism_rating_has_tourism_with_id": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_rating"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_rating": {
+			          "Target": {
+			            "Entity": "tourism_rating"
+			          }
+			        },
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_rating"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_rating_have_tourism_with_id"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_tourism_rating"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_place_translation": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "place_translation": {
+			          "Target": {
+			            "Entity": "place_translation"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "place_translation"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_place_translations"
+			        }
+			      ]
+			    },
+			    "place_translation_has_tourism_with_id": {
+			      "Binding": {
+			        "ConceptualEntity": "place_translations"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "place_translation": {
+			          "Target": {
+			            "Entity": "place_translation"
+			          }
+			        },
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "place_translation"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "place_translations_have_tourism_with_id"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

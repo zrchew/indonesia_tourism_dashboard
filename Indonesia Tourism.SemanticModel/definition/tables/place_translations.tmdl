@@ -1,0 +1,42 @@
+table place_translations
+	lineageTag: 737057ae-7f69-4ae3-9519-f2e7bf965ebf
+
+	column Place_Id
+		dataType: int64
+		formatString: 0
+		lineageTag: 77408703-039a-471b-9bf4-55eda5ceab7c
+		summarizeBy: none
+		sourceColumn: Place_Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column Place_Name
+		dataType: string
+		lineageTag: 70261981-ea70-4769-aea0-d40c32743776
+		summarizeBy: none
+		sourceColumn: Place_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column English_Name
+		dataType: string
+		lineageTag: 983eb872-d383-48bf-9734-83e0a24a918d
+		summarizeBy: none
+		sourceColumn: English_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition place_translations = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\103920zhch\OneDrive - BW Offshore\Desktop\PowerBI Stuff\Indonesia Tourism Dataset\place_translations.csv"),[Delimiter=",", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Place_Id", Int64.Type}, {"Place_Name", type text}, {"English_Name", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

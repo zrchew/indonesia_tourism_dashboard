@@ -1,0 +1,76 @@
+table package_tourism
+	lineageTag: 74286ff1-b95f-4552-a617-cbdf055365dd
+
+	column Package
+		dataType: int64
+		formatString: 0
+		lineageTag: 2bcee23c-0ece-4d25-9563-d34d961468ba
+		summarizeBy: sum
+		sourceColumn: Package
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: 05c36ee5-741f-4efd-8b60-1033af0a4337
+		summarizeBy: none
+		sourceColumn: City
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Place_Tourism1
+		dataType: string
+		lineageTag: 46d4c54e-cfe1-44fd-add4-824686c0c472
+		summarizeBy: none
+		sourceColumn: Place_Tourism1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Place_Tourism2
+		dataType: string
+		lineageTag: e0970234-883a-4368-ac53-2e091e68dea9
+		summarizeBy: none
+		sourceColumn: Place_Tourism2
+
+		annotation SummarizationSetBy = Automatic
+
+	column Place_Tourism3
+		dataType: string
+		lineageTag: c2f99e87-9841-4b4e-8542-1c1ed55dc1d5
+		summarizeBy: none
+		sourceColumn: Place_Tourism3
+
+		annotation SummarizationSetBy = Automatic
+
+	column Place_Tourism4
+		dataType: string
+		lineageTag: 6c0e8e89-b5f6-4519-92b9-412df080519e
+		summarizeBy: none
+		sourceColumn: Place_Tourism4
+
+		annotation SummarizationSetBy = Automatic
+
+	column Place_Tourism5
+		dataType: string
+		lineageTag: dfde3e75-ca00-4703-8940-8ca1c47cd962
+		summarizeBy: none
+		sourceColumn: Place_Tourism5
+
+		annotation SummarizationSetBy = Automatic
+
+	partition package_tourism = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\103920zhch\OneDrive - BW Offshore\Desktop\PowerBI Stuff\Indonesia Tourism Dataset\package_tourism.csv"),[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Package", Int64.Type}, {"City", type text}, {"Place_Tourism1", type text}, {"Place_Tourism2", type text}, {"Place_Tourism3", type text}, {"Place_Tourism4", type text}, {"Place_Tourism5", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

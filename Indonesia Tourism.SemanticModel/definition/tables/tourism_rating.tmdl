@@ -1,0 +1,48 @@
+table tourism_rating
+	lineageTag: 82a50e1e-f421-49d6-be71-fbb879b0dfbe
+
+	measure '_Unique Visitors' = DISTINCTCOUNT(tourism_rating[User_Id])
+		formatString: 0
+		lineageTag: e0f71109-4f02-4498-b191-8751d2a89944
+
+	column User_Id
+		dataType: int64
+		formatString: 0
+		lineageTag: e438fd67-acec-45ba-941a-af01d3cdf1a8
+		summarizeBy: none
+		sourceColumn: User_Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column Place_Id
+		dataType: int64
+		formatString: 0
+		lineageTag: 98a1b0a6-c447-456f-8686-28535831eeb3
+		summarizeBy: none
+		sourceColumn: Place_Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column Place_Ratings
+		dataType: int64
+		formatString: 0
+		lineageTag: 11e455e1-34c4-46a2-b885-4c9ed5510a6b
+		summarizeBy: sum
+		sourceColumn: Place_Ratings
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tourism_rating = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\103920zhch\OneDrive - BW Offshore\Desktop\PowerBI Stuff\Indonesia Tourism Dataset\tourism_rating.csv"),[Delimiter=",", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"User_Id", Int64.Type}, {"Place_Id", Int64.Type}, {"Place_Ratings", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

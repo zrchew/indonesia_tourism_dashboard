@@ -1,0 +1,23 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-GB
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["package_tourism","tourism_rating","tourism_with_id","user","place_translations"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table package_tourism
+ref table tourism_rating
+ref table tourism_with_id
+ref table user
+ref table place_translations
+
+ref cultureInfo en-US
+

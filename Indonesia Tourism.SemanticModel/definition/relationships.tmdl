@@ -1,0 +1,14 @@
+relationship AutoDetected_0ccfa5c7-a552-444b-a806-2427e9cd9172
+	fromColumn: tourism_rating.Place_Id
+	toColumn: tourism_with_id.Place_Id
+
+relationship AutoDetected_2ef58573-e397-4110-bf6e-4c0f013ccaa3
+	fromColumn: tourism_rating.User_Id
+	toColumn: user.User_Id
+
+relationship AutoDetected_29272a3b-ff4c-42f6-a30e-df26c9099d6d
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: place_translations.Place_Id
+	toColumn: tourism_with_id.Place_Id
+
