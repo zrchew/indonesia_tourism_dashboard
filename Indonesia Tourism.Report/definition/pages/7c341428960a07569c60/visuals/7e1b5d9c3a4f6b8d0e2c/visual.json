@@ -256,23 +256,5 @@
         }
       ]
     }
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "224cf77c298792032ec9",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Selected Attraction"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

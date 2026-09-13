@@ -2,8 +2,8 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "9c883b99c097820b5d73",
   "position": {
-    "x": 640,
-    "y": 175.48387096774192,
+    "x": 640.68303094983992,
+    "y": 443.9701173959445,
     "z": 6000,
     "height": 249.03225806451613,
     "width": 615.483870967742,
@@ -246,42 +246,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "52013fa2b7f69dbb856d",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Price Tier"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "0aa767b060c97c74a8da",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "tourism_with_id"
-                  }
-                },
-                "Property": "Place_Id"
-              }
-            },
-            "Function": 5
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

@@ -3,7 +3,7 @@
   "name": "a4f6c9d1e2b3478f90ab",
   "position": {
     "x": 856.77419354838707,
-    "y": 436.12903225806451,
+    "y": 171.11302372017693,
     "z": 8000,
     "height": 116.36363636363636,
     "width": 399.99999999999994,
@@ -66,17 +66,17 @@
                 }
               }
             },
-            "textSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "10D"
-                }
-              }
-            },
             "bold": {
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
                 }
               }
             }
@@ -299,7 +299,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "e851879252dd5a37ec61",
+        "name": "1fb36f7d2443758b70e0",
         "field": {
           "Column": {
             "Expression": {

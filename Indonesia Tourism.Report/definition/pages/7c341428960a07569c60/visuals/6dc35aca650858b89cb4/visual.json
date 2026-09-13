@@ -302,23 +302,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "77adf40fb13d57712704",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Total Attractions"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

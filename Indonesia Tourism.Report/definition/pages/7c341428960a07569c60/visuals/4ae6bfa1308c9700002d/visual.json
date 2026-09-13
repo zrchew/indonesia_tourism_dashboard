@@ -303,23 +303,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "70e5c6abe820d8fb3e00",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Average Prize"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

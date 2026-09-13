@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "2b3c4d5e6f7890abcde1",
   "position": {
-    "x": 24,
-    "y": 160,
+    "x": 24.589114194236927,
+    "y": 327.854855923159,
     "z": 1000,
-    "height": 300,
-    "width": 1232,
+    "height": 374.30096051227321,
+    "width": 1232.187833511206,
     "tabOrder": 1000
   },
   "visual": {
@@ -242,7 +242,35 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "734322e668ecce8f19c4",
+        "name": "0f5b33ba150220660c0a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Place_Name_English"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "188439be87193705a6b0",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Category Eng"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "3d649d5ad75a55229c0e",
         "field": {
           "Aggregation": {
             "Expression": {
@@ -261,7 +289,7 @@
         "type": "Advanced"
       },
       {
-        "name": "5eeb81d6b46ef586382e",
+        "name": "aa5e2f0144061702ecc8",
         "field": {
           "Aggregation": {
             "Expression": {
@@ -278,34 +306,6 @@
           }
         },
         "type": "Advanced"
-      },
-      {
-        "name": "3ea77d836687c08c374d",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Category Eng"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "7a83e3f5155ee15e1fbc",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Place_Name_English"
-          }
-        },
-        "type": "Categorical"
       }
     ]
   }

@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "3c4d5e6f7890abcdef12",
   "position": {
-    "x": 24,
-    "y": 476,
+    "x": 262.28388473852721,
+    "y": 34.151547491995728,
     "z": 2000,
-    "height": 220,
-    "width": 604,
+    "height": 274.57844183564566,
+    "width": 480.85378868729987,
     "tabOrder": 2000
   },
   "visual": {
@@ -23,11 +23,12 @@
                       "Entity": "tourism_with_id"
                     }
                   },
-                  "Property": "Place_Name"
+                  "Property": "Place_Name_English"
                 }
               },
-              "queryRef": "tourism_with_id.Place_Name",
-              "nativeQueryRef": "Place_Name"
+              "queryRef": "tourism_with_id.Place_Name_English",
+              "nativeQueryRef": "Place Name",
+              "displayName": "Place Name"
             },
             {
               "field": {
@@ -41,7 +42,8 @@
                 }
               },
               "queryRef": "tourism_with_id.Category Eng",
-              "nativeQueryRef": "Category Eng"
+              "nativeQueryRef": "Category ",
+              "displayName": "Category "
             },
             {
               "field": {
@@ -210,7 +212,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "3c4d5e6f7890abcdef12",
+        "name": "4d39fe77cc71a136a449",
         "field": {
           "Column": {
             "Expression": {
@@ -218,11 +220,52 @@
                 "Entity": "tourism_with_id"
               }
             },
-            "Property": "Place_Name"
+            "Property": "Category Eng"
           }
         },
-        "type": "TopN",
-        "howCreated": "User"
+        "type": "Categorical"
+      },
+      {
+        "name": "7fdc73ea8ae67386a6ba",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Price"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "ac06fe2897ccede39b25",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Rating"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "5d9a0e2294e5ea1e68a6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Place_Name_English"
+          }
+        },
+        "type": "Categorical"
       }
     ]
   }

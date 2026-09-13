@@ -7,7 +7,7 @@
     "z": 4000,
     "height": 510.90715048025612,
     "width": 713.08431163287082,
-    "tabOrder": 4000
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "azureMap",
@@ -527,70 +527,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "2da2984299cbaccfbee3",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Long"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "38fea03a2c5b1e03c01f",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Lat"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "4a23bba2161a77085480",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "tourism_with_id"
-                  }
-                },
-                "Property": "Place_Name_English"
-              }
-            },
-            "Function": 3
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "5dacf0b22d095b6bd0d4",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "City"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

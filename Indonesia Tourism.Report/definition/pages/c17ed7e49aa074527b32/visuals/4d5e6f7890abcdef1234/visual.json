@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "4d5e6f7890abcdef1234",
   "position": {
-    "x": 652,
-    "y": 476,
+    "x": 773.19103521878333,
+    "y": 34.151547491995728,
     "z": 3000,
-    "height": 220,
-    "width": 604,
+    "height": 274.57844183564566,
+    "width": 483.58591248665954,
     "tabOrder": 3000
   },
   "visual": {
@@ -23,11 +23,12 @@
                       "Entity": "tourism_with_id"
                     }
                   },
-                  "Property": "Place_Name"
+                  "Property": "Place_Name_English"
                 }
               },
-              "queryRef": "tourism_with_id.Place_Name",
-              "nativeQueryRef": "Place_Name"
+              "queryRef": "tourism_with_id.Place_Name_English",
+              "nativeQueryRef": "Place Name",
+              "displayName": "Place Name"
             },
             {
               "field": {
@@ -41,7 +42,8 @@
                 }
               },
               "queryRef": "tourism_with_id.Category Eng",
-              "nativeQueryRef": "Category Eng"
+              "nativeQueryRef": "Category ",
+              "displayName": "Category "
             },
             {
               "field": {
@@ -215,25 +217,24 @@
             }
           }
         }
+      ],
+      "general": [
+        {
+          "properties": {
+            "altText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'\"Note: several premium-priced attractions (200K+) do not out-rate cheaper alternatives — price is a weak predictor of rating in this dataset.\"'"
+                }
+              }
+            }
+          }
+        }
       ]
     }
   },
   "filterConfig": {
     "filters": [
-      {
-        "name": "4d5e6f7890abcdef1234",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Place_Name"
-          }
-        },
-        "type": "TopN"
-      },
       {
         "name": "5e6f7890abcdef123456",
         "field": {
@@ -283,7 +284,7 @@
         }
       },
       {
-        "name": "1cd709734da982bb08b8",
+        "name": "d2a3af759520716ce7a9",
         "field": {
           "Column": {
             "Expression": {
@@ -297,7 +298,7 @@
         "type": "Categorical"
       },
       {
-        "name": "1166ac61f7cc02be50f1",
+        "name": "bd15f2afc9611950c6ec",
         "field": {
           "Column": {
             "Expression": {
@@ -309,6 +310,20 @@
           }
         },
         "type": "Advanced"
+      },
+      {
+        "name": "8ad7f60e4a1b70db3990",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Place_Name_English"
+          }
+        },
+        "type": "Categorical"
       }
     ]
   }

@@ -313,23 +313,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "588a0a9ae7b86ed1b1c4",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Selected City"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

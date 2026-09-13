@@ -235,37 +235,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "ed20b0e5557cc26fa66f",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Category Eng"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "769e7f4fc176a45d75c1",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Total Attractions"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

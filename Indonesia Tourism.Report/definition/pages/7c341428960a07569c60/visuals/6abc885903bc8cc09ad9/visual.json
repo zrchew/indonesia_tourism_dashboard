@@ -4,10 +4,10 @@
   "position": {
     "x": 773.19103521878333,
     "y": 184.41835645677693,
-    "z": 5001,
+    "z": 6000,
     "height": 221.30202774813233,
     "width": 482.2198505869797,
-    "tabOrder": 5001
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "slicer",
@@ -55,6 +55,13 @@
               "expr": {
                 "Literal": {
                   "Value": "0D"
+                }
+              }
+            },
+            "selfFilterEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }
@@ -146,23 +153,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "cdc872dde1b0ec203641",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "tourism_with_id"
-              }
-            },
-            "Property": "Place_Name_English"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

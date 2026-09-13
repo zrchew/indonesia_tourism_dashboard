@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
-  "name": "1a2b3c4d5e6f7890abcd",
+  "name": "c65edbf6a041216089b1",
   "position": {
-    "x": 24,
-    "y": 24,
-    "z": 0,
-    "height": 120,
-    "width": 1232,
-    "tabOrder": 0
+    "x": 24.589114194236927,
+    "y": 34.151547491995728,
+    "z": 3001,
+    "height": 274.57844183564566,
+    "width": 207.64140875133404,
+    "tabOrder": 3001
   },
   "visual": {
     "visualType": "slicer",
@@ -54,7 +54,7 @@
             "orientation": {
               "expr": {
                 "Literal": {
-                  "Value": "1D"
+                  "Value": "0D"
                 }
               }
             },
@@ -88,7 +88,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'Yogyakarta'"
+                                "Value": "'Bandung'"
                               }
                             }
                           ]
@@ -149,7 +149,7 @@
             "strictSingleSelect": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             }
@@ -158,6 +158,51 @@
       ]
     },
     "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#243B53'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'left'"
+                }
+              }
+            }
+          }
+        }
+      ],
       "background": [
         {
           "properties": {
@@ -227,6 +272,40 @@
           }
         }
       ],
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "8L"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "8L"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "8L"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "8L"
+                }
+              }
+            }
+          }
+        }
+      ],
       "visualHeader": [
         {
           "properties": {
@@ -246,7 +325,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "93d44a9b7b1af01846af",
+        "name": "f57f9f404542d77a3186",
         "field": {
           "Column": {
             "Expression": {
