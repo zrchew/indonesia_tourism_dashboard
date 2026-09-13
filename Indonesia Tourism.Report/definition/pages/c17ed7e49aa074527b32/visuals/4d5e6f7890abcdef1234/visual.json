@@ -1,20 +1,34 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
-  "name": "8c76927af81c60561872",
+  "name": "4d5e6f7890abcdef1234",
   "position": {
-    "x": 24.516129032258064,
-    "y": 175.48387096774192,
-    "z": 5000,
-    "height": 249.03225806451613,
-    "width": 600,
-    "tabOrder": 5000
+    "x": 652,
+    "y": 476,
+    "z": 3000,
+    "height": 220,
+    "width": 604,
+    "tabOrder": 3000
   },
   "visual": {
-    "visualType": "barChart",
+    "visualType": "tableEx",
     "query": {
       "queryState": {
-        "Category": {
+        "Values": {
           "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "tourism_with_id"
+                    }
+                  },
+                  "Property": "Place_Name"
+                }
+              },
+              "queryRef": "tourism_with_id.Place_Name",
+              "nativeQueryRef": "Place_Name"
+            },
             {
               "field": {
                 "Column": {
@@ -27,33 +41,37 @@
                 }
               },
               "queryRef": "tourism_with_id.Category Eng",
-              "nativeQueryRef": "Category",
-              "active": true,
-              "displayName": "Category"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
+              "nativeQueryRef": "Category Eng"
+            },
             {
               "field": {
-                "Aggregation": {
+                "Column": {
                   "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "tourism_with_id"
-                        }
-                      },
-                      "Property": "Place_Id"
+                    "SourceRef": {
+                      "Entity": "tourism_with_id"
                     }
                   },
-                  "Function": 5
+                  "Property": "Price"
                 }
               },
-              "queryRef": "CountNonNull(tourism_with_id.Place_Id)",
-              "nativeQueryRef": "Number of Places",
-              "displayName": "Number of Places"
+              "queryRef": "tourism_with_id.Price",
+              "nativeQueryRef": "Price",
+              "format": "\"Rp\"#,##0"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "tourism_with_id"
+                    }
+                  },
+                  "Property": "Rating"
+                }
+              },
+              "queryRef": "tourism_with_id.Rating",
+              "nativeQueryRef": "Rating",
+              "format": "0.00"
             }
           ]
         }
@@ -62,24 +80,18 @@
         "sort": [
           {
             "field": {
-              "Aggregation": {
+              "Column": {
                 "Expression": {
-                  "Column": {
-                    "Expression": {
-                      "SourceRef": {
-                        "Entity": "tourism_with_id"
-                      }
-                    },
-                    "Property": "Place_Id"
+                  "SourceRef": {
+                    "Entity": "tourism_with_id"
                   }
                 },
-                "Function": 5
+                "Property": "Rating"
               }
             },
             "direction": "Descending"
           }
-        ],
-        "isDefaultSort": true
+        ]
       }
     },
     "visualContainerObjects": {
@@ -90,6 +102,13 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Worth the Splurge'"
                 }
               }
             },
@@ -107,7 +126,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "12D"
+                  "Value": "18D"
                 }
               }
             },
@@ -122,13 +141,6 @@
               "expr": {
                 "Literal": {
                   "Value": "'left'"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Number of Places by Category'"
                 }
               }
             }
@@ -203,61 +215,75 @@
             }
           }
         }
-      ],
-      "padding": [
-        {
-          "properties": {
-            "top": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            },
-            "bottom": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            },
-            "left": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            },
-            "right": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "visualHeader": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
       ]
-    },
-    "drillFilterOtherVisuals": true
+    }
   },
   "filterConfig": {
     "filters": [
       {
-        "name": "f77ff6e4405898782f59",
+        "name": "4d5e6f7890abcdef1234",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Place_Name"
+          }
+        },
+        "type": "TopN"
+      },
+      {
+        "name": "5e6f7890abcdef123456",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Price"
+          }
+        },
+        "type": "Advanced",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "t",
+              "Entity": "tourism_with_id",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 2,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "t"
+                        }
+                      },
+                      "Property": "Price"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "100000L"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "1cd709734da982bb08b8",
         "field": {
           "Column": {
             "Expression": {
@@ -271,20 +297,15 @@
         "type": "Categorical"
       },
       {
-        "name": "65223fc9d65080b89c71",
+        "name": "1166ac61f7cc02be50f1",
         "field": {
-          "Aggregation": {
+          "Column": {
             "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "tourism_with_id"
-                  }
-                },
-                "Property": "Place_Id"
+              "SourceRef": {
+                "Entity": "tourism_with_id"
               }
             },
-            "Function": 5
+            "Property": "Rating"
           }
         },
         "type": "Advanced"

@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "5f3de134d9e024a7b513",
   "position": {
-    "x": 24,
-    "y": 184,
+    "x": 24.589114194236927,
+    "y": 184.41835645677693,
     "z": 4000,
-    "height": 512,
-    "width": 744,
+    "height": 510.90715048025612,
+    "width": 713.08431163287082,
     "tabOrder": 4000
   },
   "visual": {
@@ -28,6 +28,30 @@
               },
               "queryRef": "tourism_with_id.City",
               "nativeQueryRef": "City"
+            }
+          ]
+        },
+        "Tooltips": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "tourism_with_id"
+                        }
+                      },
+                      "Property": "Place_Name_English"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(tourism_with_id.Place_Name_English)",
+              "nativeQueryRef": "Place_Name_English",
+              "displayName": "Name of Place"
             }
           ]
         },
@@ -104,21 +128,21 @@
             "zoom": {
               "expr": {
                 "Literal": {
-                  "Value": "5.33D"
+                  "Value": "4.75D"
                 }
               }
             },
             "centerLatitude": {
               "expr": {
                 "Literal": {
-                  "Value": "-4.977677192667656D"
+                  "Value": "-3.5712182603316904D"
                 }
               }
             },
             "centerLongitude": {
               "expr": {
                 "Literal": {
-                  "Value": "109.06157264567673D"
+                  "Value": "108.37653009999997D"
                 }
               }
             },
@@ -326,7 +350,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Attraction popularity by location'"
+                  "Value": "'All Attractions'"
                 }
               }
             },
@@ -422,7 +446,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }
@@ -503,5 +527,70 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "2da2984299cbaccfbee3",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Long"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "38fea03a2c5b1e03c01f",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Lat"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "4a23bba2161a77085480",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "tourism_with_id"
+                  }
+                },
+                "Property": "Place_Name_English"
+              }
+            },
+            "Function": 3
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "5dacf0b22d095b6bd0d4",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "City"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
   }
 }

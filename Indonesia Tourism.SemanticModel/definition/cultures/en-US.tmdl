@@ -1684,16 +1684,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "score": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.476
-			          }
-			        },
-			        {
 			          "grade": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -3798,9 +3788,319 @@ cultureInfo en-US
 			          }
 			        }
 			      ]
+			    },
+			    "tourism_with_id.selected_attraction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Selected Attraction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "selected attraction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "attraction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "selected magnetism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "selected desirability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "selected fascination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "selected temptation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "selected attractiveness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "selected enticement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "magnetism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "desirability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fascination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "temptation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "tourism_with_id.value_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tourism_with_id",
+			          "ConceptualProperty": "Value Score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "value notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "value slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "value groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "value nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "value cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "value mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
+			    "tourism_with_id_has_selected_attraction": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.selected_attraction": {
+			          "Target": {
+			            "Entity": "tourism_with_id.selected_attraction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.selected_attraction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_selected_attraction"
+			        }
+			      ]
+			    },
+			    "tourism_with_id_has_display_rank": {
+			      "Binding": {
+			        "ConceptualEntity": "tourism_with_id"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tourism_with_id": {
+			          "Target": {
+			            "Entity": "tourism_with_id"
+			          }
+			        },
+			        "tourism_with_id.display_rank": {
+			          "Target": {
+			            "Entity": "tourism_with_id.display_rank"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tourism_with_id"
+			            },
+			            "Object": {
+			              "Role": "tourism_with_id.display_rank"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tourism_with_id_have_display_ranks"
+			        }
+			      ]
+			    },
 			    "place_translation_has_english_name": {
 			      "Binding": {
 			        "ConceptualEntity": "place_translations"
@@ -5662,7 +5962,7 @@ cultureInfo en-US
 			        }
 			      ]
 			    },
-			    "tourism_with_id_has_display_rank": {
+			    "tourism_with_id_has_value_score": {
 			      "Binding": {
 			        "ConceptualEntity": "tourism_with_id"
 			      },
@@ -5673,9 +5973,9 @@ cultureInfo en-US
 			            "Entity": "tourism_with_id"
 			          }
 			        },
-			        "tourism_with_id.display_rank": {
+			        "tourism_with_id.value_score": {
 			          "Target": {
-			            "Entity": "tourism_with_id.display_rank"
+			            "Entity": "tourism_with_id.value_score"
 			          }
 			        }
 			      },
@@ -5686,12 +5986,12 @@ cultureInfo en-US
 			              "Role": "tourism_with_id"
 			            },
 			            "Object": {
-			              "Role": "tourism_with_id.display_rank"
+			              "Role": "tourism_with_id.value_score"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "tourism_with_id_have_display_ranks"
+			          "ID": "tourism_with_id_have_value_score"
 			        }
 			      ]
 			    },

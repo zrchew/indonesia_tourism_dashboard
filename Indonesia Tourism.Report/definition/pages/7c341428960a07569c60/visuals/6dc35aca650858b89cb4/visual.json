@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "6dc35aca650858b89cb4",
   "position": {
-    "x": 24,
-    "y": 24,
+    "x": 345.80645161290323,
+    "y": 24.516129032258064,
     "z": 0,
-    "height": 136,
-    "width": 280,
+    "height": 135.48387096774192,
+    "width": 272.258064516129,
     "tabOrder": 0
   },
   "visual": {
@@ -302,5 +302,23 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "77adf40fb13d57712704",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Total Attractions"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

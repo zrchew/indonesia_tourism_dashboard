@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
-  "name": "bb598288bf2ee9c61c94",
+  "name": "7e1b5d9c3a4f6b8d0e2c",
   "position": {
-    "x": 23.75,
-    "y": 23.75,
-    "z": 0,
-    "height": 128.75,
-    "width": 290,
-    "tabOrder": 0
+    "x": 24.516129032258064,
+    "y": 24.516129032258064,
+    "z": 3000,
+    "height": 135.48387096774192,
+    "width": 289.0322580645161,
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -23,46 +23,17 @@
                       "Entity": "tourism_with_id"
                     }
                   },
-                  "Property": "Selected City"
+                  "Property": "Selected Attraction"
                 }
               },
-              "queryRef": "tourism_with_id.Selected City",
-              "nativeQueryRef": "Selected City"
+              "queryRef": "tourism_with_id.Selected Attraction",
+              "nativeQueryRef": "Selected Attraction"
             }
           ]
         }
       }
     },
     "objects": {
-      "layout": [
-        {
-          "properties": {
-            "alignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'middle'"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "referenceLabelLayout": [
-        {
-          "properties": {
-            "position": {
-              "expr": {
-                "Literal": {
-                  "Value": "'below'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
-          }
-        }
-      ],
       "accentBar": [
         {
           "properties": {
@@ -128,7 +99,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "24D"
+                  "Value": "17D"
                 }
               }
             },
@@ -264,41 +235,7 @@
           }
         }
       ],
-      "padding": [
-        {
-          "properties": {
-            "top": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            },
-            "bottom": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            },
-            "left": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            },
-            "right": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "visualHeader": [
+      "title": [
         {
           "properties": {
             "show": {
@@ -307,17 +244,23 @@
                   "Value": "false"
                 }
               }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Select Attraction'"
+                }
+              }
             }
           }
         }
       ]
-    },
-    "drillFilterOtherVisuals": true
+    }
   },
   "filterConfig": {
     "filters": [
       {
-        "name": "588a0a9ae7b86ed1b1c4",
+        "name": "224cf77c298792032ec9",
         "field": {
           "Measure": {
             "Expression": {
@@ -325,7 +268,7 @@
                 "Entity": "tourism_with_id"
               }
             },
-            "Property": "Selected City"
+            "Property": "Selected Attraction"
           }
         },
         "type": "Advanced"

@@ -3,10 +3,10 @@
   "name": "070126bc62827d534a7e",
   "position": {
     "x": 640,
-    "y": 407.5,
+    "y": 436.12903225806451,
     "z": 4000,
-    "height": 280,
-    "width": 208.18181818181816,
+    "height": 251.61290322580643,
+    "width": 207.74193548387098,
     "tabOrder": 4000
   },
   "visual": {
@@ -51,6 +51,13 @@
       "general": [
         {
           "properties": {
+            "orientation": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
             "filter": {
               "filter": {
                 "Version": 2,
@@ -90,13 +97,6 @@
                     }
                   }
                 ]
-              }
-            },
-            "orientation": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
-                }
               }
             }
           }

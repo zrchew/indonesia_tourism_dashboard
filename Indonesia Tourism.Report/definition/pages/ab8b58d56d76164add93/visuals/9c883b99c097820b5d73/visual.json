@@ -3,10 +3,10 @@
   "name": "9c883b99c097820b5d73",
   "position": {
     "x": 640,
-    "y": 176,
+    "y": 175.48387096774192,
     "z": 6000,
-    "height": 208,
-    "width": 616,
+    "height": 249.03225806451613,
+    "width": 615.483870967742,
     "tabOrder": 6000
   },
   "visual": {
@@ -246,5 +246,42 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "52013fa2b7f69dbb856d",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Price Tier"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "0aa767b060c97c74a8da",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "tourism_with_id"
+                  }
+                },
+                "Property": "Place_Id"
+              }
+            },
+            "Function": 5
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

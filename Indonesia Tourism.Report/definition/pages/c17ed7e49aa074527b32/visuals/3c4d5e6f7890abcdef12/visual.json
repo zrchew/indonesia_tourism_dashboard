@@ -1,20 +1,34 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
-  "name": "8c76927af81c60561872",
+  "name": "3c4d5e6f7890abcdef12",
   "position": {
-    "x": 24.516129032258064,
-    "y": 175.48387096774192,
-    "z": 5000,
-    "height": 249.03225806451613,
-    "width": 600,
-    "tabOrder": 5000
+    "x": 24,
+    "y": 476,
+    "z": 2000,
+    "height": 220,
+    "width": 604,
+    "tabOrder": 2000
   },
   "visual": {
-    "visualType": "barChart",
+    "visualType": "tableEx",
     "query": {
       "queryState": {
-        "Category": {
+        "Values": {
           "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "tourism_with_id"
+                    }
+                  },
+                  "Property": "Place_Name"
+                }
+              },
+              "queryRef": "tourism_with_id.Place_Name",
+              "nativeQueryRef": "Place_Name"
+            },
             {
               "field": {
                 "Column": {
@@ -27,33 +41,37 @@
                 }
               },
               "queryRef": "tourism_with_id.Category Eng",
-              "nativeQueryRef": "Category",
-              "active": true,
-              "displayName": "Category"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
+              "nativeQueryRef": "Category Eng"
+            },
             {
               "field": {
-                "Aggregation": {
+                "Column": {
                   "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "tourism_with_id"
-                        }
-                      },
-                      "Property": "Place_Id"
+                    "SourceRef": {
+                      "Entity": "tourism_with_id"
                     }
                   },
-                  "Function": 5
+                  "Property": "Price"
                 }
               },
-              "queryRef": "CountNonNull(tourism_with_id.Place_Id)",
-              "nativeQueryRef": "Number of Places",
-              "displayName": "Number of Places"
+              "queryRef": "tourism_with_id.Price",
+              "nativeQueryRef": "Price",
+              "format": "\"Rp\"#,##0"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "tourism_with_id"
+                    }
+                  },
+                  "Property": "Rating"
+                }
+              },
+              "queryRef": "tourism_with_id.Rating",
+              "nativeQueryRef": "Rating",
+              "format": "0.00"
             }
           ]
         }
@@ -62,24 +80,18 @@
         "sort": [
           {
             "field": {
-              "Aggregation": {
+              "Measure": {
                 "Expression": {
-                  "Column": {
-                    "Expression": {
-                      "SourceRef": {
-                        "Entity": "tourism_with_id"
-                      }
-                    },
-                    "Property": "Place_Id"
+                  "SourceRef": {
+                    "Entity": "tourism_with_id"
                   }
                 },
-                "Function": 5
+                "Property": "Value Score"
               }
             },
             "direction": "Descending"
           }
-        ],
-        "isDefaultSort": true
+        ]
       }
     },
     "visualContainerObjects": {
@@ -90,6 +102,13 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Best Value Attractions'"
                 }
               }
             },
@@ -107,7 +126,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "12D"
+                  "Value": "18D"
                 }
               }
             },
@@ -122,13 +141,6 @@
               "expr": {
                 "Literal": {
                   "Value": "'left'"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Number of Places by Category'"
                 }
               }
             }
@@ -176,17 +188,6 @@
                 }
               }
             },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#D9E2EC'"
-                    }
-                  }
-                }
-              }
-            },
             "radius": {
               "expr": {
                 "Literal": {
@@ -203,61 +204,13 @@
             }
           }
         }
-      ],
-      "padding": [
-        {
-          "properties": {
-            "top": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            },
-            "bottom": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            },
-            "left": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            },
-            "right": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "visualHeader": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
       ]
-    },
-    "drillFilterOtherVisuals": true
+    }
   },
   "filterConfig": {
     "filters": [
       {
-        "name": "f77ff6e4405898782f59",
+        "name": "3c4d5e6f7890abcdef12",
         "field": {
           "Column": {
             "Expression": {
@@ -265,29 +218,11 @@
                 "Entity": "tourism_with_id"
               }
             },
-            "Property": "Category Eng"
+            "Property": "Place_Name"
           }
         },
-        "type": "Categorical"
-      },
-      {
-        "name": "65223fc9d65080b89c71",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "tourism_with_id"
-                  }
-                },
-                "Property": "Place_Id"
-              }
-            },
-            "Function": 5
-          }
-        },
-        "type": "Advanced"
+        "type": "TopN",
+        "howCreated": "User"
       }
     ]
   }

@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "4ae6bfa1308c9700002d",
   "position": {
-    "x": 328,
-    "y": 24,
+    "x": 663.22580645161293,
+    "y": 24.516129032258064,
     "z": 1000,
-    "height": 136,
-    "width": 280,
+    "height": 135.48387096774192,
+    "width": 283.87096774193549,
     "tabOrder": 1000
   },
   "visual": {
@@ -303,5 +303,23 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "70e5c6abe820d8fb3e00",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "tourism_with_id"
+              }
+            },
+            "Property": "Average Prize"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

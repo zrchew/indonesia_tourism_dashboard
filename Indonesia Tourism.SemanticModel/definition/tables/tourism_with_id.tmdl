@@ -17,7 +17,7 @@ table tourism_with_id
 		formatString: 0
 		lineageTag: 9ede3e36-cd53-4133-858a-47178bca4cc0
 
-	measure 'Selected City' = SELECTEDVALUE(tourism_with_id[City], "Select a City")
+	measure 'Selected City' = SELECTEDVALUE(tourism_with_id[City], "[Select a City]")
 		lineageTag: 4b660e09-46ef-46c5-aafa-819848449a86
 
 	measure 'Rating Rank' =
@@ -34,6 +34,14 @@ table tourism_with_id
 			    RANKX(RankTable, [@Score], CurrentScore, DESC, DENSE)
 		formatString: 0
 		lineageTag: 72aa4023-b819-4de6-8410-2d1b15b7ab04
+
+	measure 'Selected Attraction' = SELECTEDVALUE(tourism_with_id[Place_Name_English], "[Select Attraction]")
+		formatString: General
+		lineageTag: 14df29b2-076c-40ae-90b9-fd27042965eb
+
+	measure 'Value Score' = DIVIDE(AVERAGE(tourism_with_id[Rating]), AVERAGE(tourism_with_id[Price]) + 1)
+		formatString: 0.0000
+		lineageTag: 1993f305-0d28-4531-9006-8ac3b5fdf276
 
 	column Place_Id
 		dataType: int64
