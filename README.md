@@ -1,98 +1,50 @@
-# indonesia\_tourism\_dashboard
+# Indonesia Tourism Dashboard
 
-
-
-\# Indonesia Tourism Dashboard
-
-
-
-An interactive Power BI dashboard exploring \~437 tourist attractions across 
-
+An interactive Power BI dashboard exploring ~437 tourist attractions across 
 5 major Indonesian cities (Jakarta, Bandung, Semarang, Surabaya, Yogyakarta), 
-
 built on a public Kaggle dataset originally created for the Bangkit Academy 
-
 2021 "GetLoc" capstone project.
 
+## Live Report
+https://github.com/zrchew/indonesia_tourism_dashboard
 
+## Dataset
+- Source: https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination
+- `tourism_with_id.csv` — attraction-level data: name, description, category, price, 
+  rating, coordinates, visit duration
+- `package_tourism.csv` — curated multi-stop route bundles 
+- `tourism_rating.csv` / `user.csv` — synthetic/dummy data on the age of tourists visiting the attractions and the corresponding ratings given to those attractions
+- `place_translations.csv` — self created spreadsheet to translate places names into English
 
-\## Live Report
+## Pages
+1. **Overview** — national, cluster, and individual-attraction KPIs (number 
+   of attractions, average price, average rating); map of all attractions; 
+   category breakdown; searchable attraction slicer
+2. **City Deep-Dive** — per-city KPIs (number of attractions, average price, 
+   average rating); category mix; price-tier distribution; top-rated 
+   attractions table; price and rating filters
+3. **Price vs. Value** — scatter analysis of price vs. rating; <surfaces that 
+   higher price doesn't reliably predict higher rating> ; best-value and 
+   splurge-worthy picks per city
 
-https://github.com/zrchew/indonesia\_tourism\_dashboard
+## Key techniques used
+- Custom price-tier bucketing via calculated columns (Free / Budget / 
+  Mid-range / Premium / Luxury)
+- Dynamic KPI cards responding to slicer and map-click cross-filtering
+- Custom report-page tooltips for map hover detail
+- DAX measures for value scoring (rating-to-price relationship)
 
+## Known limitations
+- **Synthetic user/rating data**: `tourism_rating.csv` and `user.csv` contain 
+  dummy/randomly generated values, not real visitor behavior. This project can have a better reccomendation system built if real data is provided
+- **Price distribution is heavily skewed**: ~31% of attractions are free 
+  (Price = 0), which pulls simple averages downward and required custom 
+  price-tier bucketing (rather than even-width bins) to produce a meaningful 
+  distribution chart.
+- **Ties in rating-based rankings**: "top-rated attractions" tables can 
+  include more rows than a strict cutoff (system is set to top 10) when multiple 
+  places share the exact same rating as ties in rating are shown rather than arbitrarily 
+  cut.
 
-
-\## Dataset
-
-\- Source: https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination
-
-\- `tourism\_with\_id.csv` — attraction-level data (real): name, category, price, 
-
-&#x20; rating, coordinates, visit duration
-
-\- `package\_tourism.csv` — curated multi-stop route bundles (real)
-
-\- `tourism\_rating.csv` / `user.csv` — synthetic/dummy data (fake users and 
-
-&#x20; ratings), used only for the Recommendation demo page. \*\*Not real visitor 
-
-&#x20; behavior.\*\*
-
-
-
-\## Pages
-
-1\. \*\*Overview\*\* — national KPIs, map of all attractions, category breakdown, 
-
-&#x20;  searchable attraction lookup
-
-2\. \*\*City Deep-Dive\*\* — per-city KPIs, category mix, price-tier distribution, 
-
-&#x20;  top-rated attractions table
-
-3\. \*\*Price vs. Value\*\* — scatter analysis of price vs. rating; surfaces that 
-
-&#x20;  higher price doesn't reliably predict higher rating; best-value and 
-
-&#x20;  splurge-worthy picks per city
-
-4\. \*\*Route/Package\*\* — browse pre-bundled multi-stop attraction packages by city
-
-5\. \*\*Recommendation\*\* — simplified content-based suggestion demo (clearly 
-
-&#x20;  labeled as using simulated rating data, not real user behavior)
-
-
-
-\## Key techniques used
-
-\- Custom price-tier bucketing via calculated columns (Free / Budget / 
-
-&#x20; Mid-range / Premium / Luxury)
-
-\- Dynamic KPI cards responding to slicer and map-click cross-filtering
-
-\- Custom report-page tooltips for map hover detail
-
-\- DAX measures for value scoring and simple recommendation ranking
-
-
-
-\## Known limitations
-
-\- Rating/visitor data in `tourism\_rating.csv` and `user.csv` is synthetic — 
-
-&#x20; the Recommendation page is a methodology demo, not a real personalization 
-
-&#x20; engine.
-
-\- \[Any other caveats to be filled in — e.g., Place\_Id gaps, category translation 
-
-&#x20; inconsistencies]
-
-
-
-\## Tools
-
+## Tools
 Power BI Desktop, DAX, Power Query (M)
-
