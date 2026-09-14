@@ -13,13 +13,13 @@ Screenshots of each page are included below for quick reference.
 ## Screenshots
 
 ### Overview
-![Overview page](screenshots/Overview Page.png)
+![Overview page](screenshots/overview_page.png)
 
 ### City Deep-Dive
-![City Deep-Dive page](screenshots/City Deep Dive Page.png)
+![City Deep-Dive page](screenshots/city_deep_dive_page.png)
 
 ### Price vs. Value
-![Price vs Value page](screenshots/Price vs Value Page.png)
+![Price vs Value page](screenshots/price_vs_value_page.png)
 
 ## Dataset
 - Source: https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination
