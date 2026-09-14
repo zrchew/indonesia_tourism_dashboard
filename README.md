@@ -5,8 +5,21 @@ An interactive Power BI dashboard exploring ~437 tourist attractions across
 built on a public Kaggle dataset originally created for the Bangkit Academy 
 2021 "GetLoc" capstone project.
 
-## Live Report
-https://github.com/zrchew/indonesia_tourism_dashboard
+## Access
+This is a Power BI Project (PBIP format) — clone or download this repo and 
+open `Indonesia Tourism.pbip` in Power BI Desktop to explore interactively. 
+Screenshots of each page are included below for quick reference.
+
+## Screenshots
+
+### Overview
+![Overview page](screenshots/Overview Page.png)
+
+### City Deep-Dive
+![City Deep-Dive page](screenshots/City Deep Dive Page.png)
+
+### Price vs. Value
+![Price vs Value page](screenshots/Price vs Value Page.png)
 
 ## Dataset
 - Source: https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination
