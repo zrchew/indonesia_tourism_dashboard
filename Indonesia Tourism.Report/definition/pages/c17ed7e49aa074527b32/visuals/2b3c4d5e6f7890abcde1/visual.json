@@ -46,7 +46,8 @@
                 }
               },
               "queryRef": "tourism_with_id.Category Eng",
-              "nativeQueryRef": "Category Eng"
+              "nativeQueryRef": "Category ",
+              "displayName": "Category "
             }
           ]
         },

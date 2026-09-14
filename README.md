@@ -27,6 +27,16 @@ https://github.com/zrchew/indonesia_tourism_dashboard
    higher price doesn't reliably predict higher rating> ; best-value and 
    splurge-worthy picks per city
 
+## How to Explore
+- Use the **city slicer** on City Deep-Dive and Price vs. Value to filter 
+  everything on that page to a single city.
+- On **Overview**, click any map bubble, or use the searchable attraction 
+  slicer, to filter the KPI cards down to a specific attraction.
+- On **City Deep-Dive**, use the price and rating filters to narrow the 
+  top-rated attractions table to your budget or quality threshold.
+- On **Price vs. Value**, hover over any point on the scatter chart to see 
+  the exact price and rating for that attraction, and view recommendations for best value and attractions worth splurging for
+
 ## Key techniques used
 - Custom price-tier bucketing via calculated columns (Free / Budget / 
   Mid-range / Premium / Luxury)
